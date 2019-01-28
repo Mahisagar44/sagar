@@ -1,14 +1,16 @@
  var readln = (typeof readline === 'function') ? (readline) : (function() {
      importPackage(java.io);
      importPackage(java.lang);
-     var stdin = new BufferedReader(new InputStreamReader(System['in']));
 
+
+     var stdin = new BufferedReader(new InputStreamReader(System['in']));
+    
      return function() {
          return String(stdin.readLine());  // Read line, 
      };                                    // force to JavaScript String
  }());
- print("Enter the number upto which you want the series:");
- LastTerm = parseInt(readln());
+System.out.print("Enter the number upto which you want the series:");  
+LastTerm = parseInt(readln());
 var Result = 1;
 var Number = 1;
 var Counter = 1;

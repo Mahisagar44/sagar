@@ -7,7 +7,7 @@ var readln = (typeof readline === 'function') ? (readline) : (function() {
          return String(stdin.readLine());  // Read line, 
      };                                    // force to JavaScript String
  }());
-print("How many terms you want in the series?");
+System.out.print("How many terms you want in the series?");
 NoOfTerms = parseInt(readln());
 var Number = 1;
 var Counter = 1;
