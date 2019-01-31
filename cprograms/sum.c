@@ -1,6 +1,4 @@
-
 #include <stdio.h>
-
 int main() 
 {
   int Number1, Number2, Sum;
